@@ -1,0 +1,9 @@
+{
+  "uuid": "tfl-departures@jameshooker.com",
+  "name": "TfL Departures",
+  "description": "A TfL roundel in the top bar that opens a live departure board for a configured station, using the Transport for London Unified API.",
+  "shell-version": ["48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.tfl-departures",
+  "url": "https://github.com/jimhooker/gnome-tfl-departureboard",
+  "version": 1
+}

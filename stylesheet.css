@@ -1,0 +1,36 @@
+.tfl-panel-icon {
+    icon-size: 18px;
+}
+
+.tfl-header-label {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.tfl-status {
+    font-style: italic;
+    color: #bbbbbb;
+}
+
+.tfl-row {
+    spacing: 10px;
+}
+
+.tfl-line-badge {
+    min-width: 5em;
+    text-align: center;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.tfl-destination {
+    padding: 0 6px;
+}
+
+.tfl-time {
+    font-weight: bold;
+    text-align: right;
+    min-width: 4.5em;
+}

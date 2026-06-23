@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TfL roundel as a monochrome symbolic icon. The "-symbolic" suffix tells
+  GNOME Shell to recolour it to the current panel foreground colour, so it
+  shows as a white silhouette on dark themes and a dark one on light themes.
+  Fill-only (no strokes) so the recolouring applies cleanly to every shape.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- Ring: outer circle minus inner circle (even-odd makes the hole). -->
+  <path fill-rule="evenodd"
+        d="M8 1.6a6.4 6.4 0 1 0 0 12.8 6.4 6.4 0 0 0 0-12.8zm0 2.6a3.8 3.8 0 1 1 0 7.6 3.8 3.8 0 0 1 0-7.6z"/>
+  <!-- Bar across the middle. -->
+  <rect x="0.4" y="6.4" width="15.2" height="3.2"/>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.tfl-departures"
+          path="/org/gnome/shell/extensions/tfl-departures/">
+    <key name="stations" type="a(ss)">
+      <default>[('940GZZLUKSX', "King's Cross St. Pancras")]</default>
+      <summary>Monitored stations</summary>
+      <description>List of (StopPoint id, display name) pairs to show departure boards for. Each station gets its own section in the popup.</description>
+    </key>
+    <key name="station-id" type="s">
+      <default>'940GZZLUKSX'</default>
+      <summary>Station NaPTAN / StopPoint id (legacy)</summary>
+      <description>Deprecated single-station id, kept only to migrate older installs into the 'stations' list.</description>
+    </key>
+    <key name="station-name" type="s">
+      <default>"King's Cross St. Pancras"</default>
+      <summary>Display name for the configured station (legacy)</summary>
+      <description>Deprecated single-station name, kept only to migrate older installs into the 'stations' list.</description>
+    </key>
+    <key name="app-key" type="s">
+      <default>''</default>
+      <summary>TfL API application key</summary>
+      <description>Optional TfL Unified API app key. The API works without one for low volumes, but a key gives higher rate limits.</description>
+    </key>
+    <key name="max-departures" type="i">
+      <default>8</default>
+      <range min="1" max="25"/>
+      <summary>Maximum number of departures to show</summary>
+      <description>How many upcoming departures to list in the board.</description>
+    </key>
+    <key name="refresh-interval" type="i">
+      <default>30</default>
+      <range min="10" max="300"/>
+      <summary>Auto-refresh interval in seconds</summary>
+      <description>How often to refresh the board while the menu is open.</description>
+    </key>
+  </schema>
+</schemalist>
